@@ -1,7 +1,7 @@
 
-var nome = prompt("Qual é o seu nome?");
+let nome = prompt("Qual é o seu nome?");
 
-var idade = parseInt(prompt("Qual a sua idade?"));
+let idade = parseInt(prompt("Qual a sua idade?"));
 
 
 if(idade <= 12) {
