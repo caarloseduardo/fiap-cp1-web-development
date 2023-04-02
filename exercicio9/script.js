@@ -1,5 +1,5 @@
-const value = 321.34567
+const value = prompt("Digite o valor para ser convertido:");
 
-const parsedValue = value.toFixed(2)
+const parsedValue = Number(value).toFixed(2);
 
-alert(parsedValue)
+alert(parsedValue);
