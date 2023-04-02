@@ -8,7 +8,7 @@ const calculoImc = (peso / (altura * altura)).toFixed(2);
 
 if(calculoImc < 18.5) {
     alert("Seu imc é: "+ calculoImc + ".Abaixo do peso");
-} else if(calculoImc >= 18.5 & calculoImc < 24.5) {
+} else if(calculoImc >= 18.5 && calculoImc < 24.5) {
     alert("Seu imc é: "+ calculoImc + ".Peso ideal");
 } else {
     alert("Seu imc é: "+ calculoImc + ".Acima do peso");
